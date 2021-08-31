@@ -1,4 +1,4 @@
-# 2021-08-29
+# 2021-08-29 Today I Learned
 ## 에디터 창 제어
 * 현재 창 닫기 Ctrl + w   
 * 닫은 창 다시 열기 Ctrl + Shift + t   
