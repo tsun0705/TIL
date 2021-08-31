@@ -15,3 +15,4 @@
 
 ## 2021-08-31
 * [폼 관련 요소](https://github.com/tsun0705/TIL/blob/main/HTML/%ED%8F%BC%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EC%86%8C.md "HTML")
+* [메타데이터 요소](https://github.com/tsun0705/TIL/blob/main/HTML/%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9A%94%EC%86%8C.md "HTML")
