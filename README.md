@@ -19,3 +19,4 @@
 
 ## 2021-09-01
 * [전역 속성](https://github.com/tsun0705/TIL/blob/main/HTML/%EC%A0%84%EC%97%AD%20%EC%86%8D%EC%84%B1.md "HTML")
+* HTML 전 파트 복습
