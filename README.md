@@ -18,4 +18,4 @@
 * [메타데이터 요소](https://github.com/tsun0705/TIL/blob/main/HTML/%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9A%94%EC%86%8C.md "HTML")
 
 ## 2021-09-01
-# [전역 속성](
+* [전역 속성](https://github.com/tsun0705/TIL/blob/main/HTML/%EC%A0%84%EC%97%AD%20%EC%86%8D%EC%84%B1.md "HTML")
