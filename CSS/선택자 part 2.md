@@ -106,3 +106,19 @@ a:visited {
 * focus - 포커싱 됐을때 ex) tab 키로 이동할때
 
 LVHA 순서로 배치하는 것이 좋다.
+
+***
+~~~
+input[type=text]:enabled {
+}
+
+input[type=text]:disabled {
+}
+
+input[type=radio]:checked {
+}
+
+input[type=checkbox]:checked {
+}
+~~~
+*** 
