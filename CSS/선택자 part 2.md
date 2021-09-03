@@ -51,7 +51,7 @@ span:last-child {
   color:tomato;
 }
 
-/* 3. nth-child */
+/* 3. nth-child() */
 li:nth-child() {
   color:pink;
 }
@@ -59,4 +59,15 @@ li:nth-child() {
 * 첫 번째 first-child는 해당 태그안에 있는 첫 번째 요소에 CSS를 적용한다. 단, 형제들 중에서 첫 번째 자식을 찾는다.
 * 클래스 명도 이용이 가능하다. 단, 형제들 중에서 첫 번째 자식을 찾는다.
 * 두 번째 last-child는 해당 태그안에 있는 마지막 요소에 CSS를 적용한다.
-* 세 번째 nth-child는 괄호 안에 숫자 또는 even, odd, 식을 대입하여 그 값에 맞는 요소에 CSS를 적용한다.
+* 세 번째 nth-child는 괄호 안에 숫자 또는 even, odd, 함수형을 대입하여 그 값에 맞는 요소에 CSS를 적용한다.
+
+
+~~~
+/* 1. first-of-type */
+/* 2. last-of-type */
+/* 3. nth-of-type() */
+~~~
+* first-of-type은 타입들 중에서 첫 번째 요소에 CSS를 적용한다.
+* last-of-type은 타입들 중에서 마지막 요소에 CSS를 적용한다.
+* ntn-of-type도 역시 타입을 기준으로 CSS를 적용한다.
+* 사용 방식은 위와 동일하며, 클래스 명을 사용할때 여러 태그들과 혼합해서 사용하면 각 태그 첫 번째 또는 마지막 또는 n 번째 요소마다 CSS를 적용한다.
