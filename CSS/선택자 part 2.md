@@ -35,4 +35,28 @@ a[href*="www"] {
 * 다섯 번째 적용 방법은 밸류값을 포함할 시 CSS를 적용한다.
 ***
 
-## 
+## 가상 클래스 선택자 (Psedu-Class Selector)
+~~~
+/* 1. first-child */
+li:first-child {
+  color:green;
+}
+
+.movie:first-child {
+  font-size: 32px;
+}
+
+/* 2. last-child */
+span:last-child {
+  color:tomato;
+}
+
+/* 3. nth-child */
+li:nth-child() {
+  color:pink;
+}
+~~~
+* 첫 번째 first-child는 해당 태그안에 있는 첫 번째 요소에 CSS를 적용한다. 단, 형제들 중에서 첫 번째 자식을 찾는다.
+* 클래스 명도 이용이 가능하다. 단, 형제들 중에서 첫 번째 자식을 찾는다.
+* 두 번째 last-child는 해당 태그안에 있는 마지막 요소에 CSS를 적용한다.
+* 세 번째 nth-child는 괄호 안에 숫자 또는 even, odd, 식을 대입하여 그 값에 맞는 요소에 CSS를 적용한다.
