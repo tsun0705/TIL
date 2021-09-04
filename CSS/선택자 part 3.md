@@ -42,3 +42,18 @@ code + selector {
 * 1,2번은 앞에 있는 선택자는 뒤에 있는 선택자보다 위에 있어야 한다. 즉 code 선택자 보다 아래에 있어야 한다.
 * 셀렉터는 class, id, 속성도 가능하다.
 * 2번은 가장 인접한 선택자만 가능하다. 즉 code 선택자 바로 아래에 선택자만 사용이 가능하다.
+***
+
+## 상속 제어하기
+~~~
+/* 상속 제어하기 - initial, inherit, unset */
+.child2 {
+ color: initial;
+ font-size: initial;
+}
+
+.child1 {
+  all: initial;
+}
+~~~
+* initial은 부모의 속성을 상속받지 않는다. 
