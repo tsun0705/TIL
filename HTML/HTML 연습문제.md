@@ -27,4 +27,4 @@
 
 ## 3번
 ~~~
-<input type="password">
+<input type="password" minlength="6" maxlength="20" placeholder="비밀번호를 입력해주세요">
