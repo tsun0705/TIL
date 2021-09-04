@@ -30,3 +30,6 @@
 ## 2021-09-03
 * [CSS 개요](https://github.com/tsun0705/TIL/blob/main/CSS/CSS%20%EA%B0%9C%EC%9A%94.md "CSS")
 * [선택자 part 2](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%84%A0%ED%83%9D%EC%9E%90%20part%202.md "CSS")
+
+## 2021-09-04
+* [선택자 part 3](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%84%A0%ED%83%9D%EC%9E%90%20part%203.md "CSS")
