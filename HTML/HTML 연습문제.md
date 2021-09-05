@@ -71,3 +71,9 @@
       </tbody>
 </table>
 ~~~
+
+## 5번
+~~~
+<var>∫<sub>0</sub><sup>t</sup></var>
+2<sup>5</sup>x <var>log</var> <sub>2</sub>x
+~~~
