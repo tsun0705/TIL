@@ -21,7 +21,7 @@
 * [전역 속성](https://github.com/tsun0705/TIL/blob/main/HTML/%EC%A0%84%EC%97%AD%20%EC%86%8D%EC%84%B1.md "HTML")
 * HTML 전 파트 복습
 
-## 2021-09-02 [CSS]
+## 2021-09-02
 * [선택자 part 1](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%84%A0%ED%83%9D%EC%9E%90%20part%201.md "CSS")
 * [상속 및 캐스케이딩](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%83%81%EC%86%8D%20%EB%B0%8F%20%EC%BA%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EB%94%A9.md "CSS")
 * [FONT part 1](https://github.com/tsun0705/TIL/blob/main/CSS/FONT%20part%201.md "CSS")
