@@ -55,8 +55,8 @@
 }
 ~~~
 * 폰트의 두께를 지정한다.
+* 숫자로도 지정이 가능하다.
 * https://developer.mozilla.org/ko/docs/Web/CSS/font-weight
-
 ***
 
 ## line-height 
