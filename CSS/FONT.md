@@ -7,7 +7,7 @@
   }
 ~~~
 * 글자의 크기를 지정한다.
-* https://developer.mozilla.org/ko/docs/Web/CSS/font-size 폰트 사이즈 설정 유형
+* https://developer.mozilla.org/ko/docs/Web/CSS/font-size
 * rem   
   - html 태그에 적용된 font-size의 영향을 받는다. html 태그의 폰트 크기에 따라서 상대적으로 크기가 결정된다.
 
