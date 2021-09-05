@@ -1,6 +1,6 @@
 # TIL (Today I Learned)
 
-## 2021-08-28 [HTML]
+## 2021-08-28
 * [HTML이란? & HTML 개요](https://github.com/tsun0705/TIL/blob/main/HTML/HTML.md "HTML")
 * VSCODE 실습환경 세팅
 
