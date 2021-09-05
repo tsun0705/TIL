@@ -37,14 +37,15 @@
 
 *** 
 
-## font-family 폰트의 서체
-# font-family: "Times New Roman", Times, serif;
-
-* serif (장식이 있는 폰트)
-* sans-serif
-* cursive (흘림체)
-* fantasy
-* monospace (고정폭)
+## font-family
+~~~
+.text {
+  font-family: "Times New Roman", Times, serif;
+}
+~~~
+* 폰트의 서체를 지정한다.
+* 첫 번째 서체가 없으면 두 번째 서체로 지정한다. ,로 연결
+* https://developer.mozilla.org/ko/docs/Web/CSS/font-family
 
 *** 
 
@@ -60,8 +61,12 @@
 ***
 
 ## line-height 
+~~~
+.text {
+  line-height: 1.3;
+}
 * 행과 행 사이의 간격
-* line-height: 1.3;
+* https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 
 ## color
 ~~~
