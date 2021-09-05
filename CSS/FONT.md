@@ -65,6 +65,7 @@
 .text {
   line-height: 1.3;
 }
+~~~
 * 행과 행 사이의 간격
 * https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 
