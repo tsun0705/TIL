@@ -24,7 +24,7 @@
 ## 2021-09-02 [CSS]
 * [선택자 part 1](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%84%A0%ED%83%9D%EC%9E%90%20part%201.md "CSS")
 * [상속 및 캐스케이딩](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%83%81%EC%86%8D%20%EB%B0%8F%20%EC%BA%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EB%94%A9.md "CSS")
-* [FONT](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%84%A0%ED%83%9D%EC%9E%90.md "CSS")
+* [FONT](https://github.com/tsun0705/TIL/blob/main/CSS/FONT.md "CSS")
 * 정기 테스트 대비 스터디
 
 ## 2021-09-03
