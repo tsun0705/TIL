@@ -4,7 +4,7 @@
 ~~~
 #size {
   font-size: 16px
-  }
+}
 ~~~
 * 글자의 크기를 지정한다.
 * https://developer.mozilla.org/ko/docs/Web/CSS/font-size
@@ -24,19 +24,10 @@
 ~~~
 #style {
   font-style: italic
-  }
+}
 ~~~
 * italic은 기울임꼴로 지정한다.
 ***
-
-## text-align 텍스트 정렬
-* left
-* right
-* center
-* justify
-
-*** 
-
 ## font-family
 ~~~
 .text {
@@ -66,7 +57,8 @@
   line-height: 1.3;
 }
 ~~~
-* 행과 행 사이의 간격
+* 행과 행 사이의 간격을 조정한다.
+* line-height를 지정하지 않으면 글꼴에 따라line-height가 다르다.
 * https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 
 ***
@@ -74,7 +66,7 @@
 ~~~
 h1 {
   color:red;
-  }
+}
 ~~~
 * 폰트의 색상을 지정한다.
 * 폰트의 컬러
