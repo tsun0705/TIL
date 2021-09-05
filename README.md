@@ -37,3 +37,4 @@
 * 에세이 작성
 
 ## 2021-09-05
+* [FONT part 2](https://github.com/tsun0705/TIL/blob/main/CSS/FONT%20part%202.md "CSS")
