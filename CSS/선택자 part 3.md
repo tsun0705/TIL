@@ -55,5 +55,17 @@ code + selector {
 .child1 {
   all: initial;
 }
+
+.parent2 * {
+all: inherit;
+}
+
+/* unset 
+
+1. 부모로부터 상속받을 값이 있을 때 : inherit
+2. 부모로부터 상속받을 값이 없을 때 : initail
+
+*/
 ~~~
 * initial은 부모의 속성을 상속받지 않는다. 
+* inherit은 부모의 속성을 절대적으로 상속받는다.
