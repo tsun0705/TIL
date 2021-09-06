@@ -1,6 +1,6 @@
 # 2021-09-06 Today I Learned
 
-## box model
+## Box Model
 ![image](https://user-images.githubusercontent.com/58898466/132152099-6478ed96-d4b3-427a-a542-9720259fd88c.png)
 * content : 콘텐츠가 표시되는 영역, width와 height로 영역의 크기를 정의한다.
 * padding : 콘텐츠와 테두리사이의 여백
