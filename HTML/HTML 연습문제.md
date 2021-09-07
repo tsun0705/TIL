@@ -78,3 +78,8 @@
 <var>∫<sub>0</sub><sup>t</sup></var>
 2<sup>5</sup>x <var>log</var> <sub>2</sub>x
 ~~~
+
+~~~
+/!-- 모범 답안 --!
+<i>∫</i><sub>0</sub><sup><var>t</var></sup><sup>5</sup>×<var>log</var><sub>2</sub><b>x</b>
+~~~
