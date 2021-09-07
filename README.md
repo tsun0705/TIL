@@ -45,4 +45,4 @@
 * [레이아웃](https://github.com/tsun0705/TIL/blob/main/CSS/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83.md "CSS") 
 
 ## 2021-09-07
-* [색상과 배경](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%83%89%EC%83%81%EA%B3%BC%20%EB%B0%B0%EA%B2%BD.md "
+* [색상과 배경](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%83%89%EC%83%81%EA%B3%BC%20%EB%B0%B0%EA%B2%BD.md "CSS) 
