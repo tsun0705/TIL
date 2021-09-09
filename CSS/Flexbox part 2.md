@@ -31,3 +31,8 @@
 ✔ 1개 또는 2개의 단위 없는 숫자를 사용할때 basis의 값은 0이 된다.   
 ✔ https://developer.mozilla.org/ko/docs/Web/CSS/flex   
 ✔ 첫 번째 값은 무조건 숫자   
+***
+
+### align-self
+✔ 한가지 아이템에만 따로 적용하고 싶을때 사용한다.
+✔ align-items랑 키워드는 똑같다.
