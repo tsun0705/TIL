@@ -1,6 +1,6 @@
 # 2021-09-09 Today I Learned
 
-## Flexbox - 
+## ✔ Flexbox - container
 * 행과 열 형태로 항목 무리를 배치하는 일차원 레이아웃 메서드다.
 * 부모 자식간 관계여만 성립이 된다.
   - flex container : 아이템을 감싸고 있는 바깥족 부모 영역이다.
