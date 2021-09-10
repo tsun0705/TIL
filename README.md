@@ -59,4 +59,4 @@
 * 정기 테스트 대비 스터디
 
 ## 2021-09-10
-* [Grid part 1]
+* [Grid part 1](https://github.com/tsun0705/TIL/blob/main/CSS/Grid%20part%201.md "CSS")
