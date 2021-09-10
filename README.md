@@ -60,3 +60,4 @@
 
 ## 2021-09-10
 * [Grid part 1](https://github.com/tsun0705/TIL/blob/main/CSS/Grid%20part%201.md "CSS")
+* 개인 복습
