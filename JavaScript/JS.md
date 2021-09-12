@@ -68,3 +68,21 @@ powerOf: function(a,b){
     calculator.divide(20, 4)
     calculator.powerOf(2, 3)
 ~~~
+
+## Document
+* document 객체는 DOM 제어를 위한 다양한 메서드들을 담고 있다.
+* 자바스크립트에서 HTML에 접근 및 선택, 생성, 이벤트 처리등의 작업이 가능하다.
+
+~~~
+document.getElementById("아이디"); // 해당 아이디의 태그(요소)에 접근
+id값.innerText = ""; // 텍스트 업데이트
+document.getElementsByClassName("클래스명"); // 해당 클래스명의 태그(요소)에 접근
+document.getElementsByTagName("태그명"); // 해당 태그명에 접근
+document.querySelector(".클래스명 태그명"); // 엘리먼트를 CSS 방식으로 검색, 단 하나의 엘리먼트를 리턴, 동일한 조건 시 첫번째 엘리먼트를 보여준다.
+ducumnet.querySelector("#id"); // 해당 아이디의 태그에 접근
+document.querySelectorAll(".클래스명 태그명"); // 조건에 부합하는 모든 엘리먼트를 가져온다.
+Event (document를 이용하여 사용)
+변수명(HTML Element).addEventListener("이벤트명", 이벤트 활성화 시 실행할 함수명);  // 함수명에 () 제외
+HTML element.이벤트명 = 함수명; // 위와 동일하게 동작하는 코드, 함수명에 ()제외
+console.dir(HTML Element); // 사용가능한 이벤트 볼 수 있음
+~~~
