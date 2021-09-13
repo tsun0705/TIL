@@ -52,7 +52,7 @@ grid-template-areas:
 * start가 기본값이며, end, space-around, space-between 사용 가능하다.
 ***
 
-### justify-items, align-items
+### justify-items (메인 축), align-items (교차 축)
 * 하나의 틀 안에 하나의 아이템에 대한 정렬을 지정한다.
 * stretch가 기본값이며, start, end 등이 있다.
 * justify-self로 원하는 아이템에만 지정이 가능하다.
