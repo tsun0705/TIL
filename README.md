@@ -69,3 +69,6 @@
 ## 2021-09-12
 * 개인 복습 
 * [자바 스크립트](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS.md "JS")
+
+## 2021-09-13
+* [Grid part 2](https://github.com/tsun0705/TIL/blob/main/CSS/Grid%20part%202.md "CSS") 
