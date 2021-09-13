@@ -49,4 +49,4 @@ grid-area: 2 / 1 / 2 / 4;
 * max-content : 컨텐츠의 내용을 자르지 않고 한 줄로 표시하여 그 길이를 유지한다. (최대 길이만큼 줄어든다.)
 * auto-fill : 아이템의 지정한 크기만큼 공간이 남으면 아이템으로 컨테이너를 채운다.
 * auto-fit : 남는 크기와 상관없이 남는 공간을 자동으로 전부 채운다.
-* minmax(min, max) : min값, max값을 지정한다.
+* minmax(min, max) : min값, max값을 지정한다. 
