@@ -23,3 +23,8 @@ grid-template-areas:
 /* .은 공백 */
 ~~~
 ![image](https://user-images.githubusercontent.com/58898466/133034950-3129c2cc-29ff-4722-acc2-817cb68b0663.png)
+***
+
+## row-gap, column-gap, gap
+* 행과 열간의 간격을 결정한다.
+* gap: 20px 50px; - 단축 속성으로 작성이 가능하며, row - column 순으로 작성한다.
