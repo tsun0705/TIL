@@ -1,6 +1,6 @@
 # 2021-09-13 Today I Learned
-## Container
-
+## Grid - Container
+ 
 ### grid-template-areas
 * 지정된 그리드 영역 이름을 참조해 그리드 템플릿을 생성한다.
 ~~~
