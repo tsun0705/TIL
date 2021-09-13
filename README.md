@@ -64,8 +64,7 @@
 
 ## 2021-09-11
 * 개인 복습
-* HTML & CS 문제 풀기
-
+* HTML & CSS 연습문제
 ## 2021-09-12
 * 개인 복습 
 * [자바 스크립트](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS.md "JS")
