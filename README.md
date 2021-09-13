@@ -64,7 +64,8 @@
 
 ## 2021-09-11
 * 개인 복습
-* HTML & CSS 연습문제
+* [HTML & CSS 연습문제](https://github.com/tsun0705/TIL/blob/main/CSS/CSS%20%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.md "HTML & CSS") 
+ 
 ## 2021-09-12
 * 개인 복습 
 * [자바 스크립트](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS.md "JS")
