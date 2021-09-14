@@ -75,4 +75,5 @@
 * [Grid part 3](https://github.com/tsun0705/TIL/blob/main/CSS/Grid%20part%203.md "CSS") 
 
 ## 2021-09-14
-* [오답 노트](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/%EC%A0%95%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8B%B5%ED%92%80%EC%9D%B4.md "오답 노트") 
+* [오답 노트](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/%EC%A0%95%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8B%B5%ED%92%80%EC%9D%B4.md "오답 노트")
+* 개입 복습 
