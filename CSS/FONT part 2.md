@@ -19,7 +19,7 @@
 ~~~
 .text {
   letter-spacing: 5px;  /* 글자간의 간격을 기본값에 +5px */
-  word-spacing: -1rem;  /* 글자간의 간격을 기본값에 -1rem */
+  word-spacing: -1rem;  /* 단어간의 간격을 기본값에 -1rem */
 }
 ~~~
 * letter-spacing은 글자간 간격을 지정한다.
