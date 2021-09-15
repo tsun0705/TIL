@@ -33,7 +33,7 @@
 
 ## 2021-09-04
 * [선택자 part 3](https://github.com/tsun0705/TIL/blob/main/CSS/%EC%84%A0%ED%83%9D%EC%9E%90%20part%203.md "CSS")
-* [HTML 연습문제](https://github.com/tsun0705/TIL/blob/main/HTML/HTML%20%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.md "HTML")
+* [HTML 연습문제](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/HTML%20%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.md "HTML")
 * 에세이 작성
 
 ## 2021-09-05
