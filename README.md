@@ -85,4 +85,4 @@
 
 ## 2021-09-16
 * 정기 테스트 대비 학습
-* 구글 클론 코딩
+* [구글 클론 코딩](https://github.com/tsun0705/Google-Clone-Coding "Clone Coding") 
