@@ -82,3 +82,7 @@
 * [오답 노트2](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/%EB%B9%84%EC%A0%95%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8B%B5%ED%92%80%EC%9D%B4.md "오답 노트")
 * [인용문 복습](https://github.com/tsun0705/TIL/blob/main/%EB%B3%B5%EC%8A%B5/%EC%9D%B8%EC%9A%A9%EB%AC%B8.md "HTML")
 * [position 복습](https://github.com/tsun0705/TIL/blob/main/%EB%B3%B5%EC%8A%B5/position.md "CSS") 
+
+## 2021-09-16
+* 정기 테스트 대비 학습
+* 구글 클론 코딩
