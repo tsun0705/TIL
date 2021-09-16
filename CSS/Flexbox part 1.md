@@ -3,7 +3,7 @@
 ## ✔ Flexbox - container
 * 행과 열 형태로 항목 무리를 배치하는 일차원 레이아웃 메서드다.
 * 부모 자식간 관계여만 성립이 된다.
-  - flex container : 아이템을 감싸고 있는 바깥족 부모 영역이다.
+  - flex container : 아이템을 감싸고 있는 바깥쪽 부모 영역이다. 
   - flex item : 내부의 정렬을 위해 담아 놓은 여러 개의 아이템이다.
   - main axis : 주축
   - cross axis : 교차축
