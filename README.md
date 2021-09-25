@@ -102,4 +102,4 @@
 * [오답 노트3](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/%EC%A0%95%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8B%B5%ED%92%80%EC%9D%B42.md "오답 노트") 
 * [JS2](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS2.md "JS") 
 * [자료형](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EC%9E%90%EB%A3%8C%ED%98%95.md "JS") 
-* [연산자](https://github.com/tsun0705/TIL/tree/main/JavaScript "JS") 
+* [연산자](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EC%97%B0%EC%82%B0%EC%9E%90.md "JS") 
