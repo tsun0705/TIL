@@ -76,3 +76,37 @@ console.log((num_1 - num_2).toPrecision(3));
 1.544
 1.54 */
 ~~~
+
+## Number 자료형 확인
+* 부동 소수점 산술에서 정의되지 않거나 표현할 수 없는 값 인지 확인: Number.isNan()
+* 정상적인 유한수인지 확인 : Number.isFinite()
+~~~
+console.log(!Number.isNaN(0.123));
+console.log(!Number.isNaN(0.123 / "hi"));
+console.log(Number.isFinite(123));
+console.log(Number.isFinite(Infinity));
+console.log(Number.isFinite("hi"));
+/* 출력 값 : 
+true
+false
+true
+false
+false */
+~~~
+
+## 정수와 실수형 변환
+* 정수로 변환 : Number.parseInt()
+* 실수로 변환 : Number.parseFloat()
+~~~
+console.log(Number.parseInt("123입니다."));
+console.log(Number.parseFloat("1.23입니다."));
+console.log(Number.parseInt("1.23em"));
+console.log(Number.parseInt("t123"));
+console.log(Number.parseInt("0f", 16));
+/* 출력 값 : 
+123
+1.23
+1
+NaN
+15 */
+~~~
