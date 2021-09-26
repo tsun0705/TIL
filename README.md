@@ -110,3 +110,4 @@
 * [반복문](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EB%B0%98%EB%B3%B5%EB%AC%B8.md "JS") 
 * [함수](https://github.com/tsun0705/TIL/blob/main/JavaScript/%ED%95%A8%EC%88%98.md "JS") 
 * [Method](https://github.com/tsun0705/TIL/blob/main/JavaScript/Method.md "JS") 
+* [Number](https://github.com/tsun0705/TIL/blob/main/JavaScript/Number.md "JS") 
