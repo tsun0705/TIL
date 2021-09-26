@@ -69,6 +69,7 @@ admin.func()
 
 user["func"]();
 admin["func"]();
+
 /* 출력 값 :
 Hello john
 Hello admin
