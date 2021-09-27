@@ -320,3 +320,60 @@ true
 false
 false
 ~~~
+
+## 배열 정렬
+* 내림차순 정렬 : Array.reverse()
+* 오름차순 정렬 : Array.sort()
+~~~
+let num = [2, -3, 1, 0, 9, -7]
+
+console.log(num)
+console.log(num.sort())
+console.log(num.reverse())
+
+let fruits = ["apple", "orange", "banana", "kiwi", "melon"];
+
+console.log(fruits)
+console.log(fruits.sort())
+console.log(fruits.reverse())
+
+/* 출력 값 : 
+[ 2, -3, 1, 0, 9, -7 ]
+[ -3, -7, 0, 1, 2, 9 ]
+[ 9, 2, 1, 0, -7, -3 ]
+
+[ 'apple', 'orange', 'banana', 'kiwi', 'melon' ]
+[ 'apple', 'banana', 'kiwi', 'melon', 'orange' ]
+[ 'orange', 'melon', 'kiwi', 'banana', 'apple' ] */
+~~~
+
+## 배열 변환
+* 배열 값을 문자열로 변환 : Array.join(separator)
+~~~
+let fruits = ["apple", "orange", "banana", "melon"];
+
+let str = fruits.join(); // 기본값 ,로 조인
+
+console.log(fruits);
+console.log(str);
+
+/* 출력 값 : 
+[ 'apple', 'orange', 'banana', 'melon' ]
+apple,orange,banana,melon */
+~~~
+~~~
+let fruits = ["apple", "orange", "banana", "melon"];
+console.log(fruits);
+
+let str = fruits.join(";");
+console.log(str);
+
+let fruits_list = str.split(";");
+console.log(fruits_list);
+/* 출력 값 :
+[ 'apple', 'orange', 'banana', 'melon' ]
+
+apple;orange;banana;melon
+
+[ 'apple', 'orange', 'banana', 'melon' ] */
+~~~
