@@ -289,3 +289,34 @@ orange
 2
 melon */
 ~~~
+
+## 배열 탐색 - 대 소문자 구분
+* index 탐색 (앞) : Array.indexOf(item, from)
+* index 탐색 (뒤) : Array.lastIndexOf(item, from)
+* 값 포함 여부 확인 : Array.includes(item, from)
+~~~
+let fruits = ["apple", "orange", "banana", "orange", "melon"];
+
+console.log(fruits.indexOf("orange"));
+console.log(fruits.indexOf("Orange"));
+console.log(fruits.indexOf("orange", 2)); // 2번 째 순서인 banana 부터 찾음
+
+console.log(fruits.lastIndexOf("orange"));
+console.log(fruits.lastIndexOf("orange", -3)); // 오렌지를 -3인 banana 부터 찾음
+console.log(fruits.lastIndexOf("orange", 0));
+
+console.log(fruits.includes("banana"));
+console.log(fruits.includes("Banana"));
+console.log(fruits.includes("kiwi"));
+
+/* 출력 값 :
+1
+-1 // 존재하지 않음
+3
+3
+1
+-1 // 존재하지 않음
+true
+false
+false
+~~~
