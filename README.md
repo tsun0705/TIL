@@ -113,4 +113,4 @@
 * [Number](https://github.com/tsun0705/TIL/blob/main/JavaScript/Number.md "JS") 
 
 ## 2021-09-27
-* [Strinig](https://github.com/tsun0705/TIL/blob/main/JavaScript/String.md "JS") 
+* [String](https://github.com/tsun0705/TIL/blob/main/JavaScript/String.md "JS") 
