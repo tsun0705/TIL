@@ -111,3 +111,6 @@
 * [함수](https://github.com/tsun0705/TIL/blob/main/JavaScript/%ED%95%A8%EC%88%98.md "JS") 
 * [Method](https://github.com/tsun0705/TIL/blob/main/JavaScript/Method.md "JS") 
 * [Number](https://github.com/tsun0705/TIL/blob/main/JavaScript/Number.md "JS") 
+
+## 2021-09-27
+* [Strinig](https://github.com/tsun0705/TIL/blob/main/JavaScript/String.md "JS") 
