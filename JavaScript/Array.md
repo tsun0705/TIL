@@ -177,3 +177,34 @@ console.log(ret);
 3
 watermelon
 ~~~
+
+## 배열 삭제/변경 (index)
+* Array.splice(index[start Num, delete Count, ele1, eleN])
+~~~
+let fruits = ["apple", "orange", "melon"];
+let ret;
+
+ret = fruits.splice(1);
+console.log(ret); // 삭제된 element 요소 리턴
+console.log(fruits);
+
+fruits = ["apple", "orange", "melon", "strawberry"];
+ret = fruits.splice(1,1);
+console.log(ret);
+console.log(fruits);
+
+fruits = ["apple", "orange", "melon", "strawberry"];
+ret = fruits.splice(1, 1, "mango", "kiwi")
+console.log(ret);
+console.log(fruits);
+
+/* 출력 값 :
+[ 'orange', 'melon' ]
+[ 'apple' ]
+
+[ 'orange' ]
+[ 'apple', 'melon', 'strawberry' ]
+
+[ 'orange' ]
+[ 'apple', 'mango', 'kiwi', 'melon', 'strawberry' ]
+~~~
