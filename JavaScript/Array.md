@@ -208,3 +208,25 @@ console.log(fruits);
 [ 'orange' ]
 [ 'apple', 'mango', 'kiwi', 'melon', 'strawberry' ]
 ~~~
+
+## 배열 삭제(index) 
+* Array.slice(start,end) - splice와 달리 원본 데이터에 영향을 미치지 않는다.
+~~~
+let fruits = ["apple", "orange", "melon"];
+
+console.log(fruits.slice(1));
+console.log(fruits);
+
+console.log(fruits.slice(1,2));  // end-1 , 1번 부터 1번까지 출력
+console.log(fruits.slice(-2));
+
+/* 출력 값 : 
+[ 'orange', 'melon' ]
+[ 'apple', 'orange', 'melon' ]
+
+[ 'orange' ]
+[ 'orange', 'melon' ] */
+~~~
+
+## 배열 병합
+* Array.concat(arg1, arg2, ...  )
