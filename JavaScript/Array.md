@@ -36,3 +36,90 @@ melon
 
 [ 'apple', 'kiwi', 'melon' ] */
 ~~~
+
+## 배열의 실체
+* 자바스크립트에서 배열은 다른 언어에서 말하는 일반적인 배열이 아닌 Hash 기반의 객체
+* 메모리가 연속적인 밀집 배열이 아니라 비 연속적인 희소 배열이다.
+~~~
+let nums = [];
+
+nums[0] = "one";
+nums[1] = "two";
+console.log(nums.length);
+console.log(nums);
+
+nums["once"] = "once";
+nums["twice"] = "twice";
+console.log(nums.length);
+console.log(nums);
+
+console.log(Object.getOwnPropertyDescriptors(nums));
+
+/* 출력 값 :
+2
+[ 'one', 'two' ]
+
+2
+[ 'one', 'two', once: 'once', twice: 'twice' ]
+
+{
+  '0': {
+    value: 'one',
+    writable: true,
+    enumerable: true,
+    configurable: true
+  },
+  '1': {
+    value: 'two',
+    writable: true,
+    enumerable: true,
+    configurable: true
+  },
+  length: { value: 2, writable: true, enumerable: false, configurable: false },
+  once: {
+    value: 'once',
+    writable: true,
+    enumerable: true,
+    configurable: true
+  },
+  twice: {
+    value: 'twice',
+    writable: true,
+    enumerable: true,
+    configurable: true
+  }
+} */
+~~~
+
+## 배열 타입 확인 & 배열 요소 삭제
+* Array.isArray(value)
+* delete array[Index] (삭제해도 배열의 사이즈는 그대로)
+
+~~~
+let num = 123.456;
+let str = "Hello";
+let fruits = ["apple", "orange", "melon"];
+
+console.log(Array.isArray(num));
+console.log(Array.isArray(str));
+console.log(Array.isArray(fruits));
+
+console.log(fruits);
+console.log(fruits.length);
+
+
+delete fruits[1];
+console.log(fruits);
+console.log(fruits.length);
+
+/* 출력 값 :
+false
+false
+true
+
+[ 'apple', 'orange', 'melon' ]
+3
+
+[ 'apple', <1 empty item>, 'melon' ]
+3
+~~~
