@@ -210,7 +210,8 @@ console.log(fruits);
 ~~~
 
 ## 배열 삭제(index) 
-* Array.slice(start,end) - splice와 달리 원본 데이터에 영향을 미치지 않는다.
+* Array.slice(start,end)
+* splice와 달리 원본 데이터에 영향을 미치지 않는다.
 ~~~
 let fruits = ["apple", "orange", "melon"];
 
@@ -230,3 +231,61 @@ console.log(fruits.slice(-2));
 
 ## 배열 병합
 * Array.concat(arg1, arg2, ...  )
+* 원본 데이터에 영향을 미치지 않는다.
+~~~
+let fruits = ["apple", "orange", "melon"];
+
+console.log(fruits.concat("strawberry"));
+console.log(fruits.concat("cherry","banana"));
+console.log(fruits.concat(["cherry","banana"],"mango"));
+
+fruits = ["apple", "orange", "melon"];
+let fruits_add = ["cherry", "banana"];
+
+console.log(fruits.concat(fruits_add));
+console.log(fruits);
+
+/* 출력 값 :
+[ 'apple', 'orange', 'melon', 'strawberry' ]
+[ 'apple', 'orange', 'melon', 'cherry', 'banana' ]
+[ 'apple', 'orange', 'melon', 'cherry', 'banana', 'mango' ]
+
+[ 'apple', 'orange', 'melon', 'cherry', 'banana' ]
+[ 'apple', 'orange', 'melon' ] */
+~~~
+
+## 배열의 반복문 
+* 반복문을 통해 배열 요소에 접근 가능
+* 반복문 문법 for ... length (index 접근), for ... of (element 접근), for ... in (key 접근)
+~~~
+let fruits = ["apple", "orange", "melon"];
+
+for (let i=0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+
+for (let key in fruits) {
+    console.log(key)
+    console.log(fruits[key])
+}
+
+/* 출력 값 : 
+apple
+orange
+melon
+
+apple
+orange
+melon
+
+0
+apple
+1
+orange
+2
+melon */
+~~~
