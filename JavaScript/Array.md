@@ -123,3 +123,57 @@ true
 [ 'apple', <1 empty item>, 'melon' ]
 3
 ~~~
+
+## 배열 추가/삭제 (LIFO - Back)
+* 추가 - Array.push(element)
+* 삭제 - Array.pop()
+~~~
+let fruits = ["apple", "orange", "melon"];
+let ret;
+
+ret = fruits.push("watermelon"); // 사이즈 리턴
+console.log(fruits);
+console.log(fruits.length);
+console.log(ret);
+
+ret = fruits.pop(); // 삭제된 element 리턴
+console.log(fruits);
+console.log(fruits.length);
+console.log(ret);
+
+/* 출력 값 :
+[ 'apple', 'orange', 'melon', 'watermelon' ]
+4
+4
+
+[ 'apple', 'orange', 'melon' ]
+3
+watermelon
+~~~
+
+## 배열 추가/삭제 (LIFO - Front)
+* 추가 - Array.unshift(element)
+* 삭제 - Array.shift()
+~~~
+let fruits = ["apple", "orange", "melon"];
+let ret;
+
+ret = fruits.unshift("watermelon"); // 사이즈 리턴
+console.log(fruits);
+console.log(fruits.length);
+console.log(ret);
+
+ret = fruits.shift(); // 삭제된 element 리턴
+console.log(fruits);
+console.log(fruits.length);
+console.log(ret);
+
+/* 출력 값 :
+[ 'watermelon', 'apple', 'orange', 'melon' ]
+4
+4
+
+[ 'apple', 'orange', 'melon' ]
+3
+watermelon
+~~~
