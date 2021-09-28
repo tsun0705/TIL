@@ -121,3 +121,4 @@
 * [생성자](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EC%83%9D%EC%84%B1%EC%9E%90.md "JS")
 * [Map](https://github.com/tsun0705/TIL/blob/main/JavaScript/Map.md "JS")  
 * [Set](https://github.com/tsun0705/TIL/blob/main/JavaScript/Set.md "JS") 
+* [Math](https://github.com/tsun0705/TIL/blob/main/JavaScript/Math.md "JS") 
