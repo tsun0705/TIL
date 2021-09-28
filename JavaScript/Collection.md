@@ -88,4 +88,29 @@ ice
 */
 ~~~
 
-## 
+## Map <> Object 변환
+~~~
+let recipe_juice = new Map([
+    ["strewberry", 50],
+    ["banana", 100],
+    ["ice", 150]
+]);
+
+console.log(recipe_juice);
+
+let recipe_juice_obj = Object.fromEntries(recipe_juice);
+let recipe_juice_kv = Object.entries(recipe_juice_obj);
+let recipe_juice_map = new Map(recipe_juice_kv);
+
+console.log(recipe_juice_obj);
+console.log(recipe_juice_kv);
+console.log(recipe_juice_map);
+
+/* 출력 값 :
+Map(3) { 'strewberry' => 50, 'banana' => 100, 'ice' => 150 }
+
+{ strewberry: 50, banana: 100, ice: 150 }
+[ [ 'strewberry', 50 ], [ 'banana', 100 ], [ 'ice', 150 ] ]
+Map(3) { 'strewberry' => 50, 'banana' => 100, 'ice' => 150 }
+*/
+~~~
