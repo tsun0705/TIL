@@ -68,7 +68,7 @@
  
 ## 2021-09-12
 * 개인 복습 
-* [자바 스크립트 ](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS%20%EA%B8%B0%EB%B3%B8.md "JS")
+* [JS 기본](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS%20%EA%B8%B0%EB%B3%B8.md "JS") 
 
 ## 2021-09-13
 * [Grid part 2](https://github.com/tsun0705/TIL/blob/main/CSS/Grid%20part%202.md "CSS") 
@@ -100,7 +100,7 @@
 ## 2021-09-25
 * JS 환경 세팅
 * [오답 노트3](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/%EC%A0%95%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8B%B5%ED%92%80%EC%9D%B42.md "오답 노트") 
-* [JS2](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS2.md "JS") 
+* [JS 기본](https://github.com/tsun0705/TIL/blob/main/JavaScript/JS%20%EA%B8%B0%EB%B3%B82.md "JS") 
 * [자료형](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EC%9E%90%EB%A3%8C%ED%98%95.md "JS") 
 * [연산자](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EC%97%B0%EC%82%B0%EC%9E%90.md "JS") 
 * [SCOPE](https://github.com/tsun0705/TIL/blob/main/JavaScript/Scope.md "JS") 
