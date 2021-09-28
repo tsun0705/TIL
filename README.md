@@ -122,3 +122,4 @@
 * [Map](https://github.com/tsun0705/TIL/blob/main/JavaScript/Map.md "JS")  
 * [Set](https://github.com/tsun0705/TIL/blob/main/JavaScript/Set.md "JS") 
 * [Math](https://github.com/tsun0705/TIL/blob/main/JavaScript/Math.md "JS") 
+* [Date](https://github.com/tsun0705/TIL/blob/main/JavaScript/Date.md "JS")
