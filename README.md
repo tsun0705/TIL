@@ -118,3 +118,5 @@
 
 ## 2021-09-28
 * [고차함수](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md "JS") 
+* [생성자]
+* [Map](https://github.com/tsun0705/TIL/blob/main/JavaScript/Map.md "JS")  
