@@ -11,7 +11,7 @@
 * 랜덤 난수 값 : Math.random()
 * 제곱과 제곱근 : Math.pow(x, y), Math.sprt(x)
 * 소수점 처리 : Math.round(x), Math.ceil(x), Math.floor(x)
-
+***
 ✔ 최대/최소/절대값
 ~~~
 console.log(Math.max(1,-1));
