@@ -49,3 +49,86 @@ console.log(Math.abs(-Infinity));
 1
 Infinity
 */
+~~~
+***
+✔ 속성 및 랜덤
+~~~
+console.log(Math.E);
+console.log(Math.PI);
+
+console.log(Math.random());
+console.log(Math.random() * 10);
+console.log(Number.parseInt(Math.random() * 10));
+
+for (let i=0; i < 10; i++) {
+    console.log(Number.parseInt(Math.random() * 10));
+}
+
+/* 출력 값 :
+2.718281828459045
+3.141592653589793
+
+0.7422165169831074
+4.31222112235716
+0
+
+9
+2
+5
+0
+0
+4
+8
+8
+8
+7
+*/
+~~~
+***
+✔ 제곱/제곱근/소수점 처리
+* 제곱 : Math.pow(x, y)
+* 제곱근 : Math.sqrt(x)
+* 소수점 이하 반올림 정수 : Math.round(x)
+* 소수점 이하 올림 : Math.ceil(x)
+* 소수점 이하 내림 : Math.floor(x)
+~~~
+console.log(Math.pow(2,3));
+console.log(2 ** 3);
+
+console.log(Math.sqrt(4));
+console.log(Math.sqrt(9));
+console.log(Math.sqrt(2));
+
+console.log(Math.round(3.5));
+console.log(Math.round(-2.3));
+console.log(Math.round(-2.7));
+
+console.log(Math.ceil(3.5));
+console.log(Math.ceil(-2.3));
+console.log(Math.ceil(-2.7));
+
+console.log(Math.floor(3.5));
+console.log(Math.floor(-2.3));
+console.log(Math.floor(-2.7));  
+
+/* 출력 값 :
+8
+8
+
+2
+3
+1.4142135623730951
+
+4
+-2
+-3
+
+4
+-2
+-2
+
+3
+-3
+-3
+*/
+~~~
