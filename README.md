@@ -115,3 +115,6 @@
 ## 2021-09-27
 * [String](https://github.com/tsun0705/TIL/blob/main/JavaScript/String.md "JS") 
 * [Array](https://github.com/tsun0705/TIL/blob/main/JavaScript/Array.md "JS") 
+
+## 2021-09-28
+* [고차함수](https://github.com/tsun0705/TIL/blob/main/JavaScript/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md "JS") 
