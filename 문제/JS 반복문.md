@@ -57,7 +57,13 @@ function answer(x, y) {
     x = y;
     y = temp;
   }
-
+ 
+ /*
+ if (x > y) {
+    [x, y] = [y, x];
+ }
+ */ ES6에 추가된 자바스크립트 문법
+ 
   // 코드 구현 시작 영역
   for (let i=x; i <= y; i++) {
     result.push(i);
@@ -88,5 +94,10 @@ for (let i = 0; i < input.length; i++) {
 #2 [ 3, 4, 5, 6, 7, 8 ]
 #3 [ 10, 11, 12 ]
 */
+~~~
+***
+
+## 3번 반 평균
+![image](https://user-images.githubusercontent.com/58898466/135200696-814b5dd2-9c17-4003-b4cf-9838c416d219.png)
 ~~~
 
