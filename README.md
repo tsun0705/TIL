@@ -128,3 +128,4 @@
 ## 2021-09-29
 * [반복문 문제](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/JS%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md "JS") 
 * [조건문 문제](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/JS%20%EC%A1%B0%EA%B1%B4%EB%AC%B8.md "JS") 
+* [종합 문제](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/JS%20%EC%A2%85%ED%95%A9.md "JS") 
