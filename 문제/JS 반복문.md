@@ -186,3 +186,6 @@ for (let i = 0; i < input.length; i++) {
 ***
 
 ## 5번 무한 
+![image](https://user-images.githubusercontent.com/58898466/135202432-0a0d8c34-bcc0-49cf-8401-b9d6cb83bc14.png)
+
+~~~
