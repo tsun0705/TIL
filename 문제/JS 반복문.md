@@ -138,3 +138,51 @@ for (let i = 0; i < input.length; i++) {
 #3 81.13
 */
 ~~~
+
+## 4번 핸드폰 판매
+![image](https://user-images.githubusercontent.com/58898466/135201613-4349ccab-8352-43c9-ab70-f50fcf245282.png)
+~~~
+/*** 4. 헨드폰 판매 ***/
+
+/* user code */
+function answer(employee) {
+  let employee_id;
+  let max = 0;
+
+  // 코드 구현 시작 영역
+  for(let i = 0; i < employee.length; i++) {
+    if (employee[i] > max) {
+      max = employee[i];
+      employee_id = i + 1;
+    }
+  }
+
+  // …
+
+  // 코드 구현 종료 영역
+
+  return employee_id
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  [3, 7, 9, 6, 1],
+  // TC: 2
+  [2, 7, 1, 4, 3, 0, 5],
+  // TC: 3
+  [7, 5, 0, 1, 2, 12, 6],
+];
+for (let i = 0; i < input.length; i++) {
+  console.log(`#${i + 1} ${answer(input[i])}`);
+}
+
+/* 출력 값 : 
+#1 3
+#2 2
+#3 6
+*/
+~~~
+***
+
+## 5번 무한 
