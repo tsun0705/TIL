@@ -11,7 +11,7 @@ function answer(num) {
 
   // 코드 구현 시작 영역
   for (let i=0; i < num; i++) {
-    result += "*"
+    result += "*";
   }
 
   // …
@@ -41,3 +41,52 @@ for (let i = 0; i < input.length; i++) {
 #3 ************
 */
 ~~~
+***
+
+## 2번 두 수 사이 숫자
+![image](https://user-images.githubusercontent.com/58898466/135199446-c9b79d84-26d5-463c-8e87-7c14eb7c560e.png)
+~~~
+/*** 2. 두 수 사이 숫자 ***/
+
+/* user code */
+function answer(x, y) {
+  let result = [];
+  if (x > y) {
+    let temp; 
+    temp = x;
+    x = y;
+    y = temp;
+  }
+
+  // 코드 구현 시작 영역
+  for (let i=x; i <= y; i++) {
+    result.push(i);
+  }
+  // …
+
+  // 코드 구현 종료 영역
+
+  return result;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  [3, 7],
+  // TC: 2
+  [8, 3],
+  // TC: 3
+  [12, 10],
+];
+for (let i = 0; i < input.length; i++) {
+  process.stdout.write(`#${i + 1} `);
+  console.log(answer(input[i][0], input[i][1]));
+}
+
+/* 출력 값 : 
+#1 [ 3, 4, 5, 6, 7 ]
+#2 [ 3, 4, 5, 6, 7, 8 ]
+#3 [ 10, 11, 12 ]
+*/
+~~~
+
