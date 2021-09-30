@@ -315,4 +315,54 @@ spam_flag = str.toLowerCase().includes("advert");
 ~~~
 ***
 
-## 8번
+## 8번 배열 회전
+![image](https://user-images.githubusercontent.com/58898466/135422842-aaab3c49-41e5-4d50-bfd1-a59f10404492.png)
+
+~~~
+/* 8. 배열 회전 */
+
+/* user code */
+function answer(user) {
+  let reverse = [];
+
+  for (let i=user.length-1; i>=0; i--) {
+    reverse.push(user[i]);
+  }
+
+  return reverse;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  [1, 2, 3, 4],
+  // TC: 2
+  [-1, 6, "hello", -15],
+  // TC: 3
+  ["apple", "banana", "mango"],
+];
+
+for (let i = 0; i < input.length; i++) {
+  process.stdout.write(`#${i + 1} `);
+  console.log(answer(input[i]));
+}
+
+/* 출력 값 :
+#1 [ 4, 3, 2, 1 ]
+#2 [ -15, 'hello', 6, -1 ]
+#3 [ 'mango', 'banana', 'apple' ]
+*/
+~~~
+✔ 모범 답안
+~~~
+  let tmp;
+  for (let i = 0; i < user.length / 2; i++) {
+    tmp = user[i];
+    user[i] = user[user.length - 1 - i];
+    user[user.length - 1 - i] = tmp;
+  }
+  reverse = user;
+~~~
+***
+
+## 9번 
