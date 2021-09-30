@@ -176,4 +176,43 @@ for (let i = 0; i < input.length; i++) {
 ![image](https://user-images.githubusercontent.com/58898466/135398168-5ed1167d-90c8-4f1c-b39e-a5eb55c5d8bd.png)
 
 ~~~
+/* 5. 중복 단어 제거 */
 
+/* user code */
+function answer(arr) {
+  let new_arr = [];
+
+  new_arr = new Set(arr);
+
+  return new_arr;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  ["john", "alice", "alice"],
+  // TC: 2
+  ["Hello", "hello", "HELLO", "hello"],
+  // TC: 3
+  ["kiwi", "banana", "mango", "kiwi", "banana"],
+];
+
+for (let i = 0; i < input.length; i++) {
+  process.stdout.write(`#${i + 1} `);
+  console.log(answer(input[i]));
+}
+
+/* 출력 값 : 
+#1 Set(2) { 'john', 'alice' }
+#2 Set(3) { 'Hello', 'hello', 'HELLO' }
+#3 Set(3) { 'kiwi', 'banana', 'mango' }
+*/
+~~~
+✔ 모범 답안
+~~~
+  new_arr = Array.from(new Set(arr));
+
+  new Set(arr).forEach(function item) {
+    new_arr.push(item);
+  });
+~~~
