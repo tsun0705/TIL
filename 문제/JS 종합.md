@@ -365,4 +365,8 @@ for (let i = 0; i < input.length; i++) {
 ~~~
 ***
 
-## 9번 
+## 9번 문자 교정
+![image](https://user-images.githubusercontent.com/58898466/135425439-afbb1289-0e6d-46dc-9053-733542ad9b6e.png)
+
+~~~
+
