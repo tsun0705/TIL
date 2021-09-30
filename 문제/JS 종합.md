@@ -123,4 +123,53 @@ permit = user.height >= 150;
 ![image](https://user-images.githubusercontent.com/58898466/135397066-8b03bfc3-760e-46c6-bc8d-ad8ed0461175.png)
 
 ~~~
+/* 4. 요일 구하기 */
 
+/* user code */
+function answer(str) {
+  let week = new Array(
+    "일요일",
+    "월요일",
+    "화요일",
+    "수요일",
+    "목요일",
+    "금요일",
+    "토요일"
+  );
+  let day;
+
+  day = new Date(str);
+  day = day.getDay();
+  day = week[day];
+
+  return day;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  "2021-01-27",
+  // TC: 2
+  "2021-02-27",
+  // TC: 3
+  "2021-03-14",
+];
+
+for (let i = 0; i < input.length; i++) {
+  console.log(`#${i + 1} ${answer(input[i])}`);
+}
+
+/* 출력 값 :
+#1 수요일
+#2 토요일
+#3 일요일
+*/
+~~~
+✔ 모범 답안
+~~~
+  let date = new Date(str);
+  day = week[date.getDay()];
+~~~
+***
+
+## 5번 
