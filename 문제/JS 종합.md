@@ -113,6 +113,14 @@ for (let i = 0; i < input.length; i++) {
 #3 true
 */
 ~~~
+✔ 모범 답안
+~~~
+permit = user.height >= 150;
+~~~
 ***
 
-## 4번
+## 4번 요일 구하기
+![image](https://user-images.githubusercontent.com/58898466/135397066-8b03bfc3-760e-46c6-bc8d-ad8ed0461175.png)
+
+~~~
+
