@@ -216,3 +216,60 @@ for (let i = 0; i < input.length; i++) {
     new_arr.push(item);
   });
 ~~~
+***
+
+## 배열 내 최대값 구하기
+![image](https://user-images.githubusercontent.com/58898466/135416850-d9a423c0-d2a4-4813-ae4c-f589221a7fbe.png)
+~~~
+/* 6. 배열 내 최대값 구하기 */
+
+/* user code */
+function answer(arr) {
+  let max;
+  let temp;
+  max = arr[0]
+  for (let i=1; i<arr.length; i++) {
+    if (max < arr[i]) max = arr[i];
+  }
+
+  return max;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  [1, 6, 5, 2, 3],
+  // TC: 2
+  [19, 41, 23, -4, 17],
+  // TC: 3
+  [-64, -27, -41, -33, -59],
+];
+
+for (let i = 0; i < input.length; i++) {
+  console.log(`#${i + 1} ${answer(input[i])}`);
+}
+
+/* 출력 값 :
+#1 6
+#2 41
+#3 -27
+*/
+~~~
+
+✔ 모범 답안
+~~~
+  max = Number.MIN_SAFE_INTEGER;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  
+  max = Math.max.apply(null, arr);
+~~~
+***
+
+## 7번 스팸 메일
+![image](https://user-images.githubusercontent.com/58898466/135419541-ac968364-7aa6-46ba-aba5-b31851f42e3c.png)
+
+~~~
