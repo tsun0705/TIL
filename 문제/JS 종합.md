@@ -172,4 +172,8 @@ for (let i = 0; i < input.length; i++) {
 ~~~
 ***
 
-## 5번 
+## 5번 중복 단어 제거
+![image](https://user-images.githubusercontent.com/58898466/135398168-5ed1167d-90c8-4f1c-b39e-a5eb55c5d8bd.png)
+
+~~~
+
