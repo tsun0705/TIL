@@ -133,3 +133,4 @@
 * [종합 문제](https://github.com/tsun0705/TIL/blob/main/%EB%AC%B8%EC%A0%9C/JS%20%EC%A2%85%ED%95%A9.md "JS") 
 * 정기 테스트 대비
 * [알고리즘](https://github.com/tsun0705/TIL/blob/main/%EC%88%98%ED%95%99/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md "수학") 
+* [경우의 수](https://github.com/tsun0705/TIL/blob/main/%EC%88%98%ED%95%99/%EA%B2%BD%EC%9A%B0%EC%9D%98%20%EC%88%98.md "수학") 
