@@ -370,3 +370,94 @@ for (let i = 0; i < input.length; i++) {
 
 ~~~
 
+/* 9. 문자 교정 */
+
+/* user code */
+function answer(str) {
+  let fix_str = "";
+  result = str.split(" ");
+
+  for (let i=0; i<result.length; i++) {
+    a = result[i];
+    fix_str += a[0].toUpperCase() + a.slice(1) + " ";
+  }
+
+  return fix_str;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  "Hello, My name is john",
+  // TC: 2
+  "This week is closed due to COVID-19",
+  // TC: 3
+  "fifty percent off this week",
+];
+
+for (let i = 0; i < input.length; i++) {
+  console.log(`#${i + 1} ${answer(input[i])}`);
+}
+
+/* 출력 값 : 
+#1 Hello, My Name Is John 
+#2 This Week Is Closed Due To COVID-19 
+#3 Fifty Percent Off This Week 
+*/
+~~~
+
+✔ 모범 답안
+~~~
+  for (let item of str.split(" ")) {
+    fix_str += item[0].toUpperCase() + item.slice(1) + " ";
+  }
+~~~
+***
+
+## 10번 2차원 배열의 곱셈 
+![image](https://user-images.githubusercontent.com/58898466/135428954-98744749-63a5-499e-9631-ff7e6b5657ca.png)
+
+~~~
+/* 10. 2차원 배열의 곱셈 합 */
+
+/* user code */
+function answer(arr) {
+  let product = 1;
+
+  for (i=0; i<arr.length; i++) {
+    for (j=0; j<arr[i].length; j++) {
+      product *= arr[i][j];
+    }
+  }
+
+  return product;
+}
+
+/* main code */
+let input = [
+  // TC: 1
+  [[1], [2], [3]],
+  // TC: 2
+  [
+    [1, 2],
+    [3, 4],
+    [5, 6, 7],
+  ],
+  // TC: 3
+  [
+    [5, 1],
+    [0.2, 4, 0.5],
+    [3, 9],
+  ],
+];
+
+for (let i = 0; i < input.length; i++) {
+  console.log(`#${i + 1} ${answer(input[i])}`);
+}
+
+/* 출력 값 : 
+#1 6
+#2 5040
+#3 54
+*/
+~~~
