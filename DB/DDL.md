@@ -1,6 +1,6 @@
 ## CREATE
 ~~~
-CREATE TABLE MEMBER
+CREATE TABLE MEMBER  -- 예약어로 생성시 " " 붙이면 정상적으로 생성
 (
   ID VARCHAR2(50),
   PWD NVARCHAR2(50),
