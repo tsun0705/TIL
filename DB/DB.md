@@ -6,3 +6,6 @@
 
 ## DBMS란?
 * Database Management System의 약자로써 데이터베이스를 관리해주는 시스템을 말한다.
+
+
+![image](https://user-images.githubusercontent.com/58898466/139791637-e5f1ff7c-69f0-4569-b49f-9b8cc1a59470.png)
