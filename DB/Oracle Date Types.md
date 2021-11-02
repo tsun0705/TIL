@@ -4,7 +4,7 @@
 'A'
 '123'
 ~~~
-* CHAR(n) : 고정된 문자열, size : 1byte / CHAR (2 CHAR) - 문자 2개 입력 가능, 기본값은 byte
+* CHAR(n) : 고정된 문자열, size : 1byte
 * VARCHAR2(n) : 가변 길이 문자열, 최대 n만큼 크기를 갖을 수 있다, size : 1byte
 * NCHAR(n) : 전 세계 문자 표현, size : 2~3 byte
 * NVARCHAR2(n) : 전 세계 문자 표현, size : 2~3 byte
