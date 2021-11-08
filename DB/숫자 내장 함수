@@ -1,0 +1,34 @@
+## ABS(n)
+* 절대값을 구하는 함수
+~~~
+SELECT ABS(35), ABS(-35) FROM DUAL; -- 35, 35
+~~~
+***
+
+## SIGN(n)
+* 음수/양수를 알려주는 함수
+~~~
+SELECT SIGN(35), SIGN(-35), SIGN(0) FROM DUAL; -- 1, -1, 0
+~~~
+***
+
+## ROUND(n, i)
+* 반올림하는 함수
+~~~
+SELECT ROUND(34.456789), ROUND(34.56789) FROM DUAL; -- 34, 35
+SELECT ROUND(12.3456789, 2), ROUND(12.3456789, 3) FROM DUAL; -- 12.35, 12.346
+~~~
+***
+
+## FLOOR, MOD
+* 몫, 나머지를 구하는 함수
+~~~
+SELECT FLOOR(17/5), MOD(17, 5) FROM DUAL; -- 3, 2
+~~~
+***
+
+## POWER, SQRT
+* 제곱, 제곱근을 구하는 함수
+~~~
+SELECT POWER(5, 2), SQRT(25) FROM DUAL; -- 25, 5
+~~~
