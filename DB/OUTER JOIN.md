@@ -1,5 +1,5 @@
 ## OUTER JOIN
-* 참조키를 기준으로 일치하지 않은 행도 포함시키는 조인
+* 참조키를 기준으로 일치하지 않는 행도 포함시키는 조인
 ~~~
 MEMBER LEFT/RIGHT/FULL OUTER JOIN NOTICE ON MEMBER.ID = NOTICE.WRITER
 ~~~
