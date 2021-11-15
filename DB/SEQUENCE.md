@@ -1,0 +1,5 @@
+## SEQUENCE
+* 일련번호를 나타낸다.
+~~~
+CREATE SEQUENCE 시퀀스명 INCREMENT BT 1 START WITH 1
+~~~
