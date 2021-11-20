@@ -9,3 +9,11 @@
 * 연결 생성하기
 * 문장 연결하기
 * 결과집합 사용하기
+~~~
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection con = DriverManager.getConnection(...);
+Statement st = con.createStatement();
+ResultSet rs = st.executeQuery(sql);
+rs.next();
+String title = rs.getString("title");
+~~~
