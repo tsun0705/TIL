@@ -20,6 +20,7 @@ ResultSet rs = st.executeQuery(sql);
 rs.next();
 String title = rs.getString("title");
 
+System.out.printf("TITLE:%s\n", title);
 
 
 
