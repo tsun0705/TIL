@@ -42,4 +42,7 @@ ggplot(data=mpg, aes(x=hwy)) + geom_bar()
 
 ## 시계열 그래프 - 선 그래프
 ggplot(data = economics, aes(x=date, y=unemploy)) + geom_line()
+
+## 상자 그래프
+ggplot(data = mpg, aes(x=drv, y=hwy)) + geom_boxplot()
 ~~~
