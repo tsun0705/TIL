@@ -20,3 +20,22 @@ ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point()
 ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + xlim(3,6) + ylim(10,30)
 ~~~
 ![image](https://user-images.githubusercontent.com/58898466/147439483-1c580cdc-e14e-4d5f-ab7b-272b652dce1a.png)
+***
+
+~~~
+library(dplyr)
+
+rm(mpg)
+
+df_mpg = mpg %>% group_by(drv) %>% summarise(mean_hwy = mean(hwy)) 
+df_mpg
+
+ggplot(data=df_mpg, aes(x=drv, y=mean_hwy))+geom_col()
+ggplot(data=df_mpg, aes(x=reorder(drv, -mean_hwy), y=mean_hwy))+geom_col()
+
+# 빈도 막대 그래프
+# x축만 지정하고, geom_col 대신에 geom_bar() 사용
+ggplot(data=mpg, aes(x=drv)) + geom_bar()
+
+ggplot(data=mpg, aes(x=hwy)) + geom_bar()
+~~~
