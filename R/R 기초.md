@@ -82,3 +82,4 @@ qplot(data=mpg, x=drv, y=hwy, geom = "boxplot", colour=drv)
 # 1) MAX 2) MIN 3) 중앙값 4) 중심값 5) 25, 50, 75%, 이상치
 
 ~~~
+
