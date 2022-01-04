@@ -62,3 +62,9 @@ while num != 4:
 ~~~
 
 [출처](http://www.tcpschool.com/python/control_while)
+
+## 무한 루프
+~~~
+while True:
+  print("1234567")
+~~~
