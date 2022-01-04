@@ -15,7 +15,7 @@ while meet<4:            # 유비가 제갈량을 방문횟수가 4보다 작을
 유비가 3번 방문했습니다.
 제갈량이 유비 곁으로 갑니다.
 ~~~
-
+***
 ~~~
 member = """
 1.유비
@@ -60,7 +60,7 @@ while num != 4:
 숫자를 입력하시오 :
 4
 ~~~
-
+***
 [출처](http://www.tcpschool.com/python/control_while)
 
 ## 무한 루프
