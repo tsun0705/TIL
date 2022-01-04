@@ -40,3 +40,24 @@ else:
 삼키다
 ~~~
 * 이때 print("삼키다") 대신에 pass 키워드를 넣는다면 아무런 결과도 출력되지 않고 if / else 문이 종료
+
+## IF ELSIF ELSE
+~~~
+a=1
+b=0
+
+if a and b:
+  print("AND")
+elif a==0:
+  print("a=0")
+elif b==1:
+  print("b=1")
+elif not a:
+  print("not a")
+else:
+  print("OR")
+~~~
+~~~
+실행 결과 : 
+
+~~~
