@@ -21,3 +21,9 @@ ALTER TABLE MEMBER DROP COLUMN AGE; -- AGE 컬럼 삭제
 
 ALTER TABLE MEMBER ADD EMAIL VARCHAR2(200); -- EMAIL 컬럼 추가
 ~~~
+
+## TRUNCATE
+* 테이블 구조 유지한채 내용만 삭제
+~~~
+TRUNCATE TABLE sample_product;
+~~~
