@@ -28,3 +28,23 @@ rs.close();
 st.close();
 con.close();
 ~~~
+***
+~~~
+String url = "jdbc:oracle:thin:@localhost:포트/서비스이름";
+String sql = "SELECT * FROM NOTICE";
+
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection con = DriverManager.getConnection(url, "ID", "PW");
+Statement st = con.createStatement();
+ResultSet rs = st.executeQuery(sql);
+
+if(rs.next()) {
+  String title = rs.getString("title");
+  System.out.printf("TITLE:%s\n", title);
+}
+
+
+rs.close();
+st.close();
+con.close();
+~~~
