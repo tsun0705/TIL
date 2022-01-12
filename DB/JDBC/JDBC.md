@@ -48,3 +48,6 @@ rs.close();
 st.close();
 con.close();
 ~~~
+
+* 자바는 UI 레이아웃만
+* 데이터 가공 처리는 SQL 
