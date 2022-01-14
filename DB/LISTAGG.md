@@ -54,5 +54,6 @@ FROM (
          FROM EMP
      )
 GROUP BY JOB;
-~~~ 
+~~~
+![image](https://user-images.githubusercontent.com/58898466/149454272-3a29a6c4-313e-4365-9a77-63df40e84e4c.png)
 
