@@ -31,4 +31,4 @@ public class Omok {
 	}
 }
 ~~~
-![image](https://user-images.githubusercontent.com/58898466/150712989-2404def8-a962-4154-956e-1784c7b0e656.png)
+![image](https://user-images.githubusercontent.com/58898466/150713058-206904b0-eeab-4bf1-8d47-60dbe090bd02.png)
