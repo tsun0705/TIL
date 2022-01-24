@@ -19,3 +19,4 @@ public class ArraySum {
 	}
 }
 ~~~
+![image](https://user-images.githubusercontent.com/58898466/150716633-bdbdabed-78c3-4770-94cb-eefe9a799237.png)
