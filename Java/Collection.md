@@ -5,3 +5,4 @@
 * .remove() 
 * .clear() 
 * .size()
+* .contains()
